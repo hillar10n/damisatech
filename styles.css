@@ -1,0 +1,48 @@
+html {
+	height: 100vh;
+	background-image: url(img/e.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+	background-attachment: fixed;
+}
+
+body {
+	background-color: red;
+	height: 100vh;
+	background-color: transparent;
+	font-family: "Ubuntu", sans-serif;
+	height: 100%;
+}
+.covered {
+	height: 100vh;
+}
+
+.navbar .container a {
+	color: white !important;
+}
+
+.damisa {
+	color: rgb(253, 249, 249) !important;
+	font-family: "Rubik Pixels", cursive;
+}
+
+.damisa-tech {
+	background-color: black;
+}
+
+section.bg-successs {
+	background-color: #0e8e0e;
+}
+
+@media (min-width: 768px) {
+	.news-input {
+		width: 50%;
+	}
+
+	section.w-100 {
+		width: 100%;
+		
+	}
+}
