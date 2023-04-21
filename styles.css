@@ -36,6 +36,22 @@ section.bg-successs {
 	background-color: #0e8e0e;
 }
 
+.bi {
+	padding-right: 10px;
+}
+
+.foot-nav ul,
+.others ul {
+	list-style-type: none;
+}
+
+.foot-nav ul li a,
+.others ul li a {
+	text-decoration: none;
+	color: white;
+	padding-top: 15px;
+}
+
 @media (min-width: 768px) {
 	.news-input {
 		width: 50%;
@@ -43,6 +59,5 @@ section.bg-successs {
 
 	section.w-100 {
 		width: 100%;
-		
 	}
 }
