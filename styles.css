@@ -49,7 +49,11 @@ section.bg-successs {
 .others ul li a {
 	text-decoration: none;
 	color: white;
-	padding-top: 15px;
+}
+
+.foot-nav ul li,
+.others ul li {
+	margin: 10px 0;
 }
 
 @media (min-width: 768px) {
