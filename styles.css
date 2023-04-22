@@ -66,14 +66,12 @@ section.bg-successs {
 
 .video-wrapper {
 	width: 100%;
-	background-image: linear-gradient(
-		to right,
-		rgb(0, 0, 0),
-		rgba(29, 17, 255, 0.1)
-	);
+	background-image: linear-gradient(rgb(0, 0, 0), rgba(29, 17, 255, 0.1));
 	position: relative;
 	overflow: hidden;
+	z-index: 1;
 }
+
 .header {
 	text-align: left;
 	color: white;
@@ -94,6 +92,18 @@ section.bg-successs {
 
 	section.w-100 {
 		width: 100%;
+	}
+
+	.video-wrapper {
+		width: 100%;
+		background-image: linear-gradient(
+			to right,
+			rgb(0, 0, 0),
+			rgba(29, 17, 255, 0.1)
+		);
+		position: relative;
+		overflow: hidden;
+		z-index: 1;
 	}
 
 	.circles {
