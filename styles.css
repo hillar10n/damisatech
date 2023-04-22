@@ -56,6 +56,37 @@ section.bg-successs {
 	margin: 10px 0;
 }
 
+.circles {
+	border-radius: 100px;
+	height: 200px !important;
+	width: 200px !important;
+}
+
+/* VIDEO BACKGROUND START HERE */
+
+.video-wrapper {
+	width: 100%;
+	background-image: linear-gradient(
+		to right,
+		rgb(0, 0, 0),
+		rgba(29, 17, 255, 0.1)
+	);
+	position: relative;
+	overflow: hidden;
+}
+.header {
+	text-align: left;
+	color: white;
+}
+
+.back-video {
+	position: absolute;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
 @media (min-width: 768px) {
 	.news-input {
 		width: 50%;
@@ -63,5 +94,11 @@ section.bg-successs {
 
 	section.w-100 {
 		width: 100%;
+	}
+
+	.circles {
+		border-radius: 100px;
+		height: 200px !important;
+		width: 200px !important;
 	}
 }
